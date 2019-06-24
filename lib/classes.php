@@ -7,10 +7,11 @@
 			$db_senha = db_senha;
 
 			try{
-				return $pdo = new PDO("mysql: host={$db_host}; dbname={$db_nome}", $db_usuario, $db_senha);
+				return $pdo = new PDO("mysql:host={$db_host};dbname={$db_nome}", $db_usuario, $db_senha);
 				$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 			}catch(PDOException $e){
-				return "Erro ao conectar-se: ".$e->getMessage();
+				echo "Erro ao conectar-se: ".$e->getMessage();
+				exit();
 			}
 		}
 	}
