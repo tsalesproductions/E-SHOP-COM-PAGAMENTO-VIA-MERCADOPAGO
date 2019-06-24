@@ -10,7 +10,7 @@ Onde pegar esses dados? https://www.mercadopago.com/mlb/account/credentials/ <br
 # Como acessar o painel de admin?
 Navegue até /admin e logue-se com:
 
-<b>Email:</b> thiago_salests@hotmail.com
+<b>Email:</b> thiago_salests@hotmail.com<br>
 <b>Senha:</b> 123456
 
 # Como faço para adicionar a minha conta como administrador?
