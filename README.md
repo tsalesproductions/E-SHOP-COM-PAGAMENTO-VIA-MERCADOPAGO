@@ -1,6 +1,8 @@
 # E-SHOP-COM-PAGAMENTO-VIA-MERCADOPAGO
 Estou postando um projeto de e-shop que fiz utilizando PHP + PDO, é um projeto simples porém bem avançado, utilizando orientação a objeto, classes e funções entre outros
 
+<img src="https://i.imgur.com/mkl3wC3.png">
+
 # Como utilizar?
 1º Baixe o projeto e extraia, após acesse a pasta <b>Banco de Dados</b> e importe o banco <b>eshop.sql</b>;<br>
 
@@ -16,5 +18,8 @@ Navegue até /admin e logue-se com:
 # Como faço para adicionar a minha conta como administrador?
 
 Acesse o banco de dados, na tabela <b>clientes</b>, localize seu cadastro e altere o valor da coluna <b>isadmin</b> de <b>0</b> para <b>1</b>
+
+<div align="center">USE E ABUSE :)</div>
+Para mais informações sobre o projeto e verificar updates acesse -> http://tutoriaiseinformatica.com/blog/p/download-sistema-de-eshop-2019
 
 
